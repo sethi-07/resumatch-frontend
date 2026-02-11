@@ -20,7 +20,7 @@ export default function Home() {
     try {
       setLoading(true);
 
-      const res = await fetch("http://127.0.0.1:8000/api/match", {
+      const res = await fetch("https://resumatch-5ssz.onrender.com/api/match", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
