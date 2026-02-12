@@ -29,6 +29,6 @@ textarea {
 }
 
 body {
-  @apply bg-gradient-to-br from-teal-950 to-black dark:from-black dark:to-teal-950;
+  @apply bg-gradient-to-br from-black via-teal-800 to-black;
   min-height: 100vh;
 }
